@@ -35,26 +35,7 @@ function Header() {
         <input type="text" placeholder="Search Games" 
         className="bg-transparent w-full outline-none pl-2 items-center rounded-full"  />
       </div>
-      {/* <InputGroup className="mx-8">
-        <InputLeftElement
-          pointerEvents="none"
-          children={<Search2Icon color="gray.300" />}
-        />
-        <Input type="text" variant="filled" placeholder="Search" borderRadius={50} />
-      </InputGroup> */}
-      
-      {/* <Switch id="theme"  /> */}
-      {/* <Switch colorScheme='green' isChecked={colorMode === 'dark'} 
-      onChange={toggleColorMode} /> */}
-
-      {/* <HiOutlineBars3CenterLeft className="text-[30px]" />
-      {toggle?
-      <div>
-         <SideNavGenreList/>
-        </div>
-       
-      :null} */}
-      {/* <label className="ml-2">Dark</label> */}
+   
       <div>
       {theme=='dark'?  <HiSun className="text-[35px] cursor-pointer
        bg-gray-200 text-black p-1 rounded-full " 

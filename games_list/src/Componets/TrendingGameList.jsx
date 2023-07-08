@@ -27,9 +27,6 @@ function TrendingGameList({ gameList }) {
                 bg-[#76a8f75e] rounded-b-xl bg-gradient-to-b">
                   <h2 className=" dark:text-white  text-[20px] font-bold ">
                     {item.name}
-                    {/* <span className="p-1 rounded-sm ml-2 text-[10px] bg-green-100 text-green-700 font-medium">
-                      {item.metacritic}
-                    </span> */}
                   </h2>
                 </div>
               </div>
